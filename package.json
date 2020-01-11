@@ -1,0 +1,33 @@
+{
+    "name": "xavier-dashboard",
+    "version": "0.0.1",
+    "main": "lib/index.js",
+    "author": "Naoto Ida",
+    "license": "UNLICENSED",
+    "private": true,
+    "devDependencies": {
+        "@graphql-codegen/cli": "^1.11.2",
+        "@graphql-codegen/introspection": "1.11.2",
+        "@graphql-codegen/typescript": "1.11.2",
+        "@graphql-codegen/typescript-mongodb": "1.11.2",
+        "@graphql-codegen/typescript-resolvers": "^1.11.2",
+        "@types/express": "^4.17.2",
+        "@types/graphql": "^14.5.0",
+        "@types/mongodb": "^3.3.14",
+        "@types/node": "^13.1.6",
+        "@typescript-eslint/eslint-plugin": "^2.15.0",
+        "@typescript-eslint/parser": "^2.15.0",
+        "eslint": "^6.8.0",
+        "prettier": "^1.19.1",
+        "typescript": "^3.7.4"
+    },
+    "dependencies": {
+        "apollo-server-express": "^2.9.16",
+        "express": "^4.17.1",
+        "graphql": "^14.5.8",
+        "mongodb": "^3.4.1"
+    },
+    "scripts": {
+        "genTypes": "graphql-codegen --config codegen.yml"
+    }
+}
