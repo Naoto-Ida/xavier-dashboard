@@ -22,7 +22,7 @@
         "typescript": "^3.7.4"
     },
     "dependencies": {
-        "apollo-server-express": "^2.9.16",
+        "apollo-server-express": "^2.14.2",
         "express": "^4.17.1",
         "graphql": "^14.5.8",
         "mongodb": "^3.4.1"
